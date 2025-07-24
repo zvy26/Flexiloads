@@ -27,7 +27,7 @@ const Advantages = () => {
     <div className="bg-gray-50 py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <p className="text-1xl font-bold text-black  mb-4 tracking-wide uppercase">
+          <p className="text-1xl font-bold text-blue-700  mb-4 tracking-wide uppercase">
             Advantages
           </p>
           <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
