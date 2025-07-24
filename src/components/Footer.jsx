@@ -34,16 +34,13 @@ const Footer = () => {
 
   return (
     <footer className="bg-blue-600 text-white">
-      {/* Top Section with Logo and Newsletter */}
       <div className="px-6 py-8">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
-            {/* Logo */}
             <div>
               <h2 className="text-4xl font-bold text-white">Logo</h2>
             </div>
             
-            {/* Newsletter Signup */}
             <div className="flex items-center max-w-lg bg-white rounded-lg overflow-hidden">
               <div className="relative flex-1">
                 <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
@@ -61,10 +58,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Divider */}
       <div className="border-t border-blue-500 opacity-50"></div>
 
-      {/* Main Footer Content */}
       <div className="px-6 py-12">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -89,7 +84,6 @@ const Footer = () => {
               </div>
             ))}
 
-            {/* Social Media Section */}
             <div>
               <h3 className="text-lg font-bold text-white mb-6 tracking-wide">
                 FOLLOW US ON SOCIAL MEDIA
@@ -116,10 +110,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Divider */}
       <div className="border-t border-blue-500 opacity-50"></div>
 
-      {/* Copyright */}
       <div className="px-6 py-6">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-blue-100 text-sm">
