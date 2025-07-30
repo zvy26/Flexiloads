@@ -36,7 +36,7 @@ const Advantages = () => {
               Advantages
             </h2>
             <div className="lg:max-w-md">
-              <p className="text-lg text-black leading-relaxed">
+              <p className="text-lg text-black font-bold leading-relaxed">
                 We make logistic shipping much easier and straightforward. 
                 Combining good service and technology make everything efficient
               </p>

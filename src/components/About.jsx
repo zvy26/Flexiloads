@@ -27,7 +27,7 @@ const About = () => {
           </div>
 
           <div className="lg:pl-8">
-            <p className=" relative  top-5 left-8 text-black text-lg leading-relaxed mb-12 max-w-md lg:ml-40 lg:mt-12">
+            <p className=" relative  top-5 left-8 text-black font-bold text-lg leading-relaxed mb-12 max-w-md lg:ml-40 lg:mt-12">
               We make logistic shipping much easier and straightforward. Combining good service and technology makes everything efficient.
             </p>
           </div>
@@ -57,11 +57,11 @@ const About = () => {
         <div className="mx-4 my-16 flex w-full items-center justify-center bg-blue-50 rounded-xl shadow-md mt-[100px]">
           <div className="flex flex-col md:flex-row w-full max-w-5xl items-center justify-between py-10 border-b md:border-none gap-10 md:gap-0">
             <div className="w-full border-x flex items-center justify-center flex-col px-4">
-              <p className="text-5xl font-semibold text-gray-800">12+</p>
+              <p className="text-5xl font-semibold text-gray-800">12<span className='text-blue-600 font-bold'>+</span></p>
               <p className="text-xl text-gray-600">Year Services</p>
             </div>
             <div className="w-full border-x flex items-center justify-center flex-col px-4">
-              <p className="text-5xl font-semibold text-gray-800">+20K</p>
+              <p className="text-5xl font-semibold text-gray-800"><span className='text-blue-600 font-bold '>+</span>20K</p>
               <p className="text-xl text-gray-600">Cargo Delivered</p>
             </div>
             <div className="w-full border-x flex items-center justify-center flex-col px-4">

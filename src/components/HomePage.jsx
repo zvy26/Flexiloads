@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Package, Truck, Box, Ship, Plane } from "lucide-react";
 import FirstImage from '../assets/images/FirstImage.jpg'
+import { Link, NavLink } from "react-router-dom";
 
 const HomePage = () => {
   const [formData, setFormData] = useState({
@@ -35,24 +36,24 @@ const HomePage = () => {
           >
             About
           </a>
-          <a
-            href="#services"
+          <Link
+            to="/services"
             className="text-[#000] text-[22px] leading-none hover:text-blue-600 transition-colors"
           >
             Services
-          </a>
-          <a
-            href="#tariffs"
+          </Link>
+          <Link
+            to="/tariffs"
             className="text-[#000] text-[22px] leading-none hover:text-blue-600 transition-colors"
           >
             Tariffs
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className="text-[#000] text-[22px] leading-none hover:text-blue-600 transition-colors"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </nav>
 

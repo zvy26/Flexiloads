@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Plus, X } from 'lucide-react';
 
 const Faqs = () => {
-  const [openFaq, setOpenFaq] = useState(0); // First FAQ is open by default
+  const [openFaq, setOpenFaq] = useState(0);
 
   const faqs = [
     {
@@ -40,7 +40,7 @@ const Faqs = () => {
               Questions
             </h2>
             <div className="lg:max-w-md">
-              <p className="relative top-5 text-lg text-black leading-relaxed">
+              <p className="relative top-5 text-lg text-black font-bold  leading-relaxed">
                 Explore our comprehensive FAQ section, designed to answer all your queries and help 
                 you plan a seamless and unforgettable journey.
               </p>

@@ -6,17 +6,30 @@ import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import Faqs from './components/Faqs'
 import Footer from './components/Footer'
+import ContactPage from './routes/ContactPage'
+import TariffPage from './routes/TariffPage'
+import ServicesPage from './routes/ServicesPage'
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
-       <HomePage/>
-       <About/>
-       <Advantages/>
-       <Services/>
-       <Testimonials/>
-       <Faqs/>
-       <Footer/>
+      <Routes>
+        <Route path='/' element={
+          <>
+            <HomePage />
+            <About />
+            <Advantages />
+            <Services />
+            <Testimonials />
+            <Faqs />
+          </>
+        } />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/tariffs' element={<TariffPage/>} />
+        <Route path='/services' element={<ServicesPage/>} />
+      </Routes>
+       <Footer />
     </div>
   )
 }
